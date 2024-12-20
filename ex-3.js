@@ -11,4 +11,8 @@ let additionalOrders = [
 
 // Start coding here
 
+let newOrders = [
+  ...orders,...additionalOrders
+]
+
 console.log(newOrders);
